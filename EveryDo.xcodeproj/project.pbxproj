@@ -14,6 +14,9 @@
 		4DF1B1BE1F3A365B005FF03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1B1BC1F3A365B005FF03C /* Main.storyboard */; };
 		4DF1B1C01F3A365B005FF03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1B1BF1F3A365B005FF03C /* Assets.xcassets */; };
 		4DF1B1C31F3A365B005FF03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1B1C11F3A365B005FF03C /* LaunchScreen.storyboard */; };
+		4DF1B1CC1F3A36F3005FF03C /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1B1CB1F3A36F3005FF03C /* Todo.m */; };
+		4DF1B1D21F3A3AC4005FF03C /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1B1D11F3A3AC4005FF03C /* MyTableViewCell.m */; };
+		4DF1B1D81F3A91AB005FF03C /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1B1D71F3A91AB005FF03C /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		4DF1B1BF1F3A365B005FF03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF1B1C21F3A365B005FF03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF1B1C41F3A365B005FF03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DF1B1CA1F3A36F3005FF03C /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		4DF1B1CB1F3A36F3005FF03C /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		4DF1B1D01F3A3AC4005FF03C /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyTableViewCell.h; path = ../MyTableViewCell.h; sourceTree = "<group>"; };
+		4DF1B1D11F3A3AC4005FF03C /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyTableViewCell.m; path = ../MyTableViewCell.m; sourceTree = "<group>"; };
+		4DF1B1D61F3A91AB005FF03C /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = ../AddViewController.h; sourceTree = "<group>"; };
+		4DF1B1D71F3A91AB005FF03C /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = ../AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,12 @@
 				4DF1B1B41F3A365B005FF03C /* AppDelegate.m */,
 				4DF1B1B61F3A365B005FF03C /* MasterViewController.h */,
 				4DF1B1B71F3A365B005FF03C /* MasterViewController.m */,
+				4DF1B1CA1F3A36F3005FF03C /* Todo.h */,
+				4DF1B1CB1F3A36F3005FF03C /* Todo.m */,
+				4DF1B1D61F3A91AB005FF03C /* AddViewController.h */,
+				4DF1B1D71F3A91AB005FF03C /* AddViewController.m */,
+				4DF1B1D01F3A3AC4005FF03C /* MyTableViewCell.h */,
+				4DF1B1D11F3A3AC4005FF03C /* MyTableViewCell.m */,
 				4DF1B1B91F3A365B005FF03C /* DetailViewController.h */,
 				4DF1B1BA1F3A365B005FF03C /* DetailViewController.m */,
 				4DF1B1BC1F3A365B005FF03C /* Main.storyboard */,
@@ -155,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF1B1CC1F3A36F3005FF03C /* Todo.m in Sources */,
 				4DF1B1B51F3A365B005FF03C /* AppDelegate.m in Sources */,
 				4DF1B1B81F3A365B005FF03C /* MasterViewController.m in Sources */,
+				4DF1B1D81F3A91AB005FF03C /* AddViewController.m in Sources */,
+				4DF1B1D21F3A3AC4005FF03C /* MyTableViewCell.m in Sources */,
 				4DF1B1B21F3A365B005FF03C /* main.m in Sources */,
 				4DF1B1BB1F3A365B005FF03C /* DetailViewController.m in Sources */,
 			);
